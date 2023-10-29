@@ -12,6 +12,7 @@
 		3C4DCC432AEEB179008E36AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4DCC422AEEB179008E36AA /* ContentView.swift */; };
 		3C4DCC452AEEB17C008E36AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C4DCC442AEEB17C008E36AA /* Assets.xcassets */; };
 		3C4DCC482AEEB17C008E36AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C4DCC472AEEB17C008E36AA /* Preview Assets.xcassets */; };
+		3C4DCC532AEEC0D0008E36AA /* colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4DCC522AEEC0D0008E36AA /* colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		3C4DCC422AEEB179008E36AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3C4DCC442AEEB17C008E36AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C4DCC472AEEB17C008E36AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3C4DCC522AEEC0D0008E36AA /* colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colors.swift; sourceTree = "<group>"; };
+		3C4DCC542AEEDA6B008E36AA /* Exercise7-Waobikeze-Brian-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Exercise7-Waobikeze-Brian-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +81,12 @@
 		3C4DCC3F2AEEB179008E36AA /* Exercise7_Waobikeze_Brian Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				3C4DCC542AEEDA6B008E36AA /* Exercise7-Waobikeze-Brian-Watch-App-Info.plist */,
 				3C4DCC402AEEB179008E36AA /* Exercise7_Waobikeze_BrianApp.swift */,
 				3C4DCC422AEEB179008E36AA /* ContentView.swift */,
 				3C4DCC442AEEB17C008E36AA /* Assets.xcassets */,
 				3C4DCC462AEEB17C008E36AA /* Preview Content */,
+				3C4DCC522AEEC0D0008E36AA /* colors.swift */,
 			);
 			path = "Exercise7_Waobikeze_Brian Watch App";
 			sourceTree = "<group>";
@@ -193,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C4DCC432AEEB179008E36AA /* ContentView.swift in Sources */,
+				3C4DCC532AEEC0D0008E36AA /* colors.swift in Sources */,
 				3C4DCC412AEEB179008E36AA /* Exercise7_Waobikeze_BrianApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,7 +338,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Exercise7_Waobikeze_Brian Watch App/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Exercise7-Waobikeze-Brian-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Exercise7_Waobikeze_Brian;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "$(PRODUCT_NAME) wants to access your health data to analyze your health and best advice";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "$(PRODUCT_NAME) wants to access your health data to analyze your health and best advice";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -361,7 +370,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Exercise7_Waobikeze_Brian Watch App/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Exercise7-Waobikeze-Brian-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Exercise7_Waobikeze_Brian;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "$(PRODUCT_NAME) wants to access your health data to analyze your health and best advice";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "$(PRODUCT_NAME) wants to access your health data to analyze your health and best advice";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
